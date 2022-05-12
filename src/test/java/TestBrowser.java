@@ -1,4 +1,4 @@
-import framework.AmazonApp;
+import amazon.AmazonApp;
 import org.junit.jupiter.api.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -14,7 +14,7 @@ public class TestBrowser {
     @Order(1)
     public void test_goToAmazon() throws InterruptedException {
         oApp.launch();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         oApp.close();
     }
 

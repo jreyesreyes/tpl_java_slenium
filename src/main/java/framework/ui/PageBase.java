@@ -1,4 +1,4 @@
-package framework;
+package framework.ui;
 
 import org.openqa.selenium.WebDriver;
 
